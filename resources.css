@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 267px;
+    width: 237px;
+    background-color: #59ce8f3b;
+    border-radius: 26px;
+    box-shadow: 0px 4px 4px #00000040;
+}

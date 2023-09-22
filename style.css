@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@400;600;800;900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,15 +7,22 @@
   }
   
   body {
-    font-family: sans-serif;
+    font-family: 'Oswald', sans-serif;
   }
   
+  header{
+    background-color: beige;
+  }
   a {
     text-decoration: none;
-    color: black;
+    color: #FFF;
     font-size: 1.2rem;
     font-weight: bold;
-    text-transform: uppercase;
+  }
+
+  .a-nav{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
   }
 
   /* nav styles */
@@ -22,7 +31,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
   }
   
   .logo {
@@ -36,6 +44,7 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.2px;
+    padding: 0 10px;
 
   }
   
@@ -49,7 +58,7 @@
     width: 40px;
     height: 5px;
     margin-bottom: 10px;
-    background-color: black;
+    background-color: rgb(253, 249, 249);
   }
   
   .nav__link {
@@ -93,4 +102,15 @@
       display: none;
     }
   }
-  
+
+  /* Hero Secttion */
+
+.hero-section{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 100%;
+  min-height: 85vh;
+}
+
+
