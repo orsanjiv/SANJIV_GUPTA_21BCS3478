@@ -126,10 +126,6 @@
     }
   }
 
-
-
-
-
   /* Media Query for Header */
   @media screen and (min-width: 600px) {
     .nav__link {
