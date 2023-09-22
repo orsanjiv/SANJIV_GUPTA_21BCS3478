@@ -160,10 +160,10 @@
 
 
   /* Media Query for Header */
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 953px) {
     .nav__link {
       display: block;
-      position: static;
+      position: absolute;
       width: auto;
       margin-right: 20px;
       background: none;
