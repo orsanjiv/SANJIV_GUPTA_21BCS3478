@@ -109,6 +109,15 @@
     padding: 10px;
     flex: 50%;
   }
+
+  .exit{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    margin-top: 30px;
+    width: 10%;
+  }
   
   /* Responsive layout - makes a one column-layout instead of two-column layout */
   @media (max-width: 800px) {
