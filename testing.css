@@ -110,12 +110,38 @@
 
   /* Hero Secttion */
 
-.hero-section{
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  width: 100%;
-  min-height: 85vh;
+  /* Reset some default styles for the body and headings */
+body, h1, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply styles to the hero section */
+/* Reset some default styles */
+/* Apply styles to the hero section */
+/* .hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
 }
 
 .hero-heading{
@@ -140,5 +166,28 @@
   -webkit-text-stroke: 1px #ce24246b;
   font-family: "Oswald-Bold", Helvetica;
   font-weight: 700;
+} */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
